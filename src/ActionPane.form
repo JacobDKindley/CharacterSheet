@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ActionPane">
+  <grid id="27dc6" binding="pane" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+    <constraints>
+      <xy x="20" y="20" width="295" height="40"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.5"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="33fa9" class="javax.swing.JButton" binding="button">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.5"/>
+          <text value="Custom"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

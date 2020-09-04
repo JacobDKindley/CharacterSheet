@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Ability">
+  <grid id="27dc6" binding="pane" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+    <constraints>
+      <xy x="20" y="20" width="354" height="40"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="598f4" class="javax.swing.JLabel" binding="name">
+        <constraints/>
+        <properties>
+          <font name="Garamond" size="14"/>
+          <text value="Ability:"/>
+        </properties>
+      </component>
+      <component id="d5710" class="javax.swing.JButton" binding="minus">
+        <constraints/>
+        <properties>
+          <foreground color="-4473925"/>
+          <hideActionText value="false"/>
+          <preferredSize width="45" height="30"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="88911" class="javax.swing.JLabel" binding="current">
+        <constraints/>
+        <properties>
+          <font name="Garamond" size="14"/>
+          <text value="current"/>
+        </properties>
+      </component>
+      <component id="132d6" class="javax.swing.JLabel" binding="max">
+        <constraints/>
+        <properties>
+          <font name="Garamond" size="14"/>
+          <foreground color="-4473925"/>
+          <text value="/ max"/>
+        </properties>
+      </component>
+      <component id="ea396" class="javax.swing.JButton" binding="plus">
+        <constraints/>
+        <properties>
+          <foreground color="-4473925"/>
+          <opaque value="false"/>
+          <preferredSize width="45" height="30"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="b007d" class="javax.swing.JLabel" binding="recharge">
+        <constraints/>
+        <properties>
+          <font name="Garamond" size="14"/>
+          <text value="Recharge"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

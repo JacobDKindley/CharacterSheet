@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FeaturePopup">
+  <grid id="27dc6" binding="pane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="7b1e9" class="javax.swing.JLabel" binding="label">
+        <constraints border-constraint="North"/>
+        <properties>
+          <font name="Garamond" size="26" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <scrollpane id="dcec1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="82f02" class="javax.swing.JTextPane" binding="textPane">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <font name="Garamond" size="14"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
